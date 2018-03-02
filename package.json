@@ -1,6 +1,14 @@
 {
   "name": "angular-dynamic-components",
   "version": "0.0.0",
+  "author": "Nenad Borovcanin",
+  "keywords": [
+    "angular",
+    "dynamic",
+    "component",
+    "factory",
+    "resolver"
+  ],
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -12,12 +20,14 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^5.2.0",
+    "@angular/animations": "^5.2.7",
+    "@angular/cdk": "^5.2.3",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
     "@angular/core": "^5.2.0",
     "@angular/forms": "^5.2.0",
     "@angular/http": "^5.2.0",
+    "@angular/material": "^5.2.3",
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
